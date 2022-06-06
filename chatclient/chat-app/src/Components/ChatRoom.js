@@ -14,8 +14,8 @@ const ChatRoom = () => {
         message: ''
       });
     useEffect(() => {
-      console.log(userData, privateChats);
-    }, [userData], [privateChats]);
+      console.log(userData);
+    }, [userData] );
 
     const onPrivateMessage = (payload)=>{
       console.log("Enter to 'onPrivateMessage' ")
